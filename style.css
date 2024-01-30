@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(16 23 21);
+    color:rgb(255 249 249);
+}
+.container{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    justify-content: flex-end;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    /* position: fixed; */
+}
+.c1{
+    margin:20px;
+    padding:2px;
+    color: white;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    margin-top: 2.5%;
+    margin-left:  42%;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image:hover{
+    height: 300px;
+    width: 300px;
+    margin-top: 2.5%;
+    margin-left:  40%;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Edu{
+    font-size: 30px;
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    /* background-color: rgb(21, 5, 5); */
+}
+.AcaContainer{
+    /* padding:; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(16 23 21);
+}
+.cont1{
+    font-size: 20px;
+    color: rgb(255 249 249);
+    border: solid;
+    border-color: black;
+    height: 350px;
+    width: 300px;
+}
+.cont1:hover{
+    font-size: 30px;
+    color: white;
+    border: solid;
+    background-color: black;
+    height: 500px;
+    width: 450px;
+}
+.headings{
+    text-align:center;
+    padding:10px;
+    border-color:black
+}
+.details{
+    font-size: 30px;
+    padding-top: 5%;
+    color: rgb(255 249 249); 
+
+}
+.sw{
+    font-size: 25px;
+}
+.WorkExp{
+    text-align: center;
+}
+.list{
+    font-size: 20px;
+}
